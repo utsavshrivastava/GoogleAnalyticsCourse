@@ -73,13 +73,14 @@ After the prepare stage, we have 2 master spreadsheets contained compiled inform
 ### Analyze
 We did preliminary descriptive analysis in SQL, and got a few initial insights in the difference in behavior for casual and member riders. 
 #### Sample Queries
+```
 SELECT  usertype,
         ROUND(AVG(distance/tripduration)*3600,2) AS `Average_Speed_kmph`,
         ROUND(AVG(tripduration)/60,2) AS `Average_Speed_of_Travel_mins`
 FROM `bigquery-sandbox-311309.casestudy1.tripdata`
 GROUP BY usertype
 LIMIT 10
-
+```
 
 
 
