@@ -62,6 +62,26 @@ After the prepare stage, we have 2 master spreadsheets contained compiled inform
 * combined_station_data.csv
 * combined_trips_data.csv
 
+### Process
+#### Key Steps:
+* Ensuring Data Integrity
+* Cleaning Data
+* Transforming Data to be used in Analysis.
+* Verifying the cleaned and transformed data
+* Documenting the cleaning and manipulation of data
+
+### Analyze
+We did preliminary descriptive analysis in SQL, and got a few initial insights in the difference in behavior for casual and member riders. 
+#### Sample Queries
+SELECT  usertype,
+        ROUND(AVG(distance/tripduration)*3600,2) AS `Average_Speed_kmph`,
+        ROUND(AVG(tripduration)/60,2) AS `Average_Speed_of_Travel_mins`
+FROM `bigquery-sandbox-311309.casestudy1.tripdata`
+GROUP BY usertype
+LIMIT 10
+
+
+
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
