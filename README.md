@@ -127,6 +127,7 @@ The results of above analysis findings and other insights were share with the ma
   3. Finally, the third part include a series of bubble and bar charts to provide descriptive analysis results, like no. of total trips, speeds, etc for the two types of riders.
 
 #### Dashboard Representing Wednesday Trends
+![Wednesday Dashboard Trend](https://github.com/utsavshrivastava/GoogleAnalyticsCourse/blob/main/Sunday_Dashboard.png?raw = true)
 
 #### Dashboard Representing Sunday Trends
 
