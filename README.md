@@ -81,6 +81,11 @@ FROM `bigquery-sandbox-311309.casestudy1.tripdata`
 GROUP BY usertype
 LIMIT 10
 ```
+|usertype | Average_Speed_kmph | Average_Speed_of_Travel_mins|
+|---------|--------------------|-----------------------------|
+|casual | 9.93 | 24.73|
+|member | 12.18 | 15.99|
+
 
 
 
