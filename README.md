@@ -146,5 +146,5 @@ Number of rides by Annual members seems to be quite uniform, with a slight dip i
 * https://www.coursera.org/professional-certificates/google-data-analytics
 
 ## Contact
-* https://shrivastavautsav.github.io/
+* https://utsavshrivastava.github.io/
 #### -- Status: [UnderConstruction]
