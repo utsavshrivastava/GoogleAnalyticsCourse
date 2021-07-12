@@ -86,7 +86,32 @@ LIMIT 10
 |casual | 9.93 | 24.73|
 |member | 12.18 | 15.99|
 
-
+```
+SELECT * FROM
+(
+  SELECT 
+    usertype,
+    weekday,
+    int64_field_0
+  FROM `bigquery-sandbox-311309.casestudy1.tripdata`
+)
+PIVOT
+(
+  COUNT(int64_field_0) AS No_Of_Trips
+  FOR weekday in (
+                    0 AS Monday,
+                    1 AS Tuesday,
+                    2 AS Wednesday,
+                    3 AS Thursday,
+                    4 AS Friday,
+                    5 AS Saturday,
+                    6 AS Sunday)
+)
+```
+|usertype|No_Of_Trips_Monday|No_Of_Trips_Tuesday|No_Of_Trips_Wednesday|No_Of_Trips_Thursday|No_Of_Trips_Friday|No_Of_Trips_Saturday|No_Of_Trips_Sunday|
+|--------|------------------|-------------------|---------------------|--------------------|------------------|--------------------|------------------|
+|casual|10238|9468|10034|10457|13207|17360|14010|
+|member|14595|14727|15182|15250|16488|16883|13895|
 
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
