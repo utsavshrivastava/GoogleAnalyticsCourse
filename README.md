@@ -1,50 +1,46 @@
-
-Case study on bike-share company, as a part of Google Analytics Capstone Project.
-
 # GoogleAnalyticsCourse
 This project forms the part of Capstone project for the [Google Data Analytics Certificate](https://grow.google/dataanalytics/#?modal_active=none) at [Coursera](https://www.coursera.org/).
 
 #### -- Project Status: [Completed]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+Maximizing the number of annual memberships by converting the casual riders to annual members for a bik-share company in Chicago, Cyclistic.
 
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
+### Key Stakeholders
+* Lily Moreno – Director of Marketing
+* Cyclistic Marketing Analytics Team – Responsible for creating marketing strategies.
+* Cyclistic Executive Team – Responsible for approving the recommended marketing program.
+
+### Problem Statement
+The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
+
+### Business Use Case
+How do annual members and casual riders use Cyclistic bikes differently? 
+
+### Deliverables
+1.	A clear statement of the business task 
+2.	A description of all data sources used 
+3.	Documentation of any cleaning or manipulation of data 
+4.	A summary of your analysis 
+5.	Supporting visualizations and key findings
+6.	Your  top  three  insights  based  on  your  analysis
+
 
 ### Methods Used
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
+* ETL in Python
+* Descriptive Analysis in SQL
+* Data Visualization in Tableau
 * etc.
 
 ### Technologies
-* R 
+* Spreadsheets
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
+* SQL and BigQuery
+* Pandas, jupyter notebooks
+* Tableau
 * etc. 
 
-## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
-
-## Needs of this project
-
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
-
-## Getting Started
+## Data Analysis Steps
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
