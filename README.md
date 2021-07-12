@@ -42,6 +42,27 @@ How do annual members and casual riders use Cyclistic bikes differently?
 
 ## Data Analysis Steps
 
+### Prepare
+#### Key Points:
+* Data was shared through Amazon cloud storage link.
+* Data was organized in 32 zipped files, containing:
+  - Trip Data from 2013 to May, 2021 in .csv file format.
+  - Station Data from 2013 to 2017 in .csv file format.
+* Data is split differently for different years; quarterly/bi-yearly or monthly.
+* Data is made available by Motivate International Inc. under [license](https://www.divvybikes.com/data-license-agreement)
+* Data should be able to provide different types of riders’ behaviors and usage patterns. And this in turn will help us to solve the business use case in discussion.
+* Data file problems:
+  - File – type for “Divvy_Trips_2019_Q1” and “Divvy_Trips_2019_Q2” missing.
+    Solved - Data type is .csv
+  - File “Divvy_Stations_2014-Q1Q2” was in .xlsx file format. 
+    Solved – File was opened in spreadsheets and exported to .csv format to keep file type consistency.
+
+#### Conclusion:
+After the prepare stage, we have 2 master spreadsheets contained compiled information:
+* combined_station_data.csv
+* combined_trips_data.csv
+
+
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
 
