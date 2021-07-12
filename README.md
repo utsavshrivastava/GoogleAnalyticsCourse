@@ -113,6 +113,35 @@ PIVOT
 |casual|10238|9468|10034|10457|13207|17360|14010|
 |member|14595|14727|15182|15250|16488|16883|13895|
 
+Though the SQL queries provided us initial trends and relationships, it is difficult to understand the same in the current table format. Thus we will represent the same in visualization in the next step of data analytics.
+
+### Share
+The results of above analysis findings and other insights were share with the marketing team using [Tableau – Public](https://public.tableau.com/app/profile/utsav.shrivastava/viz/GoogleAnalytics-Cyclistic/Dashboard).
+
+#### Key Features:
+* The Viz compares the riding patterns between casual and member riders.
+* The casual riders are identified in yellow and member riders in green.
+* The Dashboard is divided in 3 parts with gives us insights in 3 main categories:
+  1. Map of Chicago city showing all the trips that the riders undertook in 2020-2021. The Map can be filtered through the day of the week, to compare the weekly trends.
+  2. The two dial charts are for trip start and end time in a day. It provide us the insights on daily trend in the trips for the two categories of the riders. Again, the charts can be filtered by the day of the week.
+  3. Finally, the third part include a series of bubble and bar charts to provide descriptive analysis results, like no. of total trips, speeds, etc for the two types of riders.
+
+#### Dashboard Representing Wednesday Trends
+
+#### Dashboard Representing Sunday Trends
+
+### Conclusion and Act
+Analyzing and visualizing the riders' data, gives us three main insights:
+1. Casual Members use the bikes mostly near the Chicago City Centre and may indicate being used by mostly tourists in the city. 
+Annual members, however, use the bikes both in and around the City Centre.
+2. Casual rides prefer starting their ride around late mornings and ending them around evening. 
+Annual members generally start their ride early morning and end at similar time to casual riders. Casual riders also tend to ride longer distances and at slower speeds, than the annual members.
+3. The number of casual riders increases towards the end of the week, from Friday to Sunday. 
+Number of rides by Annual members seems to be quite uniform, with a slight dip in Sunday.
+
+
+
+
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
