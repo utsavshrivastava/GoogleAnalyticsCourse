@@ -147,4 +147,5 @@ Number of rides by Annual members seems to be quite uniform, with a slight dip i
 
 ## Contact
 * https://utsavshrivastava.github.io/
+* https://www.linkedin.com/in/utsavshrivastava/
 #### -- Status: [UnderConstruction]
