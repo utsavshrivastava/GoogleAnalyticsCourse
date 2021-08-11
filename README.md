@@ -1,4 +1,4 @@
-# GoogleAnalyticsCourse
+# Customer Segmentation - Bke Share, GoogleAnalyticsCourse
 This project forms the part of Capstone project for the [Google Data Analytics Certificate](https://grow.google/dataanalytics/#?modal_active=none) at [Coursera](https://www.coursera.org/).
 
 #### -- Project Status: [Completed]
